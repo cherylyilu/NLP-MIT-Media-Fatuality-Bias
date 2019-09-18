@@ -9,7 +9,7 @@ Ramy Baly, Georgi Karadzhov, Dimitar Alexandrov, James Glass, Preslav Nakov MIT 
 Benjamin DHorne
 https://github.com/BenjaminDHorne/Language-Features-for-News
 
-## 2 Data Overview
+## 2 Data Overview and Classification.py
 
 ### 2.1 Corpus
 The corpus is created by retrieving websites and factuality/bias labels from the Media Bias/Fact Check (MBFC) [website](http://mediabiasfactcheck.com/). The corpus is stored **data/corpus.csv**, which contains the following fields:
@@ -30,7 +30,7 @@ Here is the list of features categorized by the source from which they were extr
 
 Each of these features is stored as a numpy file in **data/features/**. The 1st column corresponds to the **source_url_processed** to ensure alignment with the corpus, and the last two columns correspond to the factuality and bias labels.
 
-## 3 Classification
+### 2.3 Classification
 To run the classification script, use a command-line argument of the following format:
 
 ```
@@ -41,7 +41,7 @@ where
 * [1] refers to the list of features (from the list above) that will be used to train the model. features must separated by "+" signs (example: has_wiki+has_twitter+title)
 
 
-## 4 Citation
+### 2.4 Citation
 For more details about the dataset, the features and the results, please refer to EMNLP paper:
 
 ```
