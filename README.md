@@ -30,7 +30,7 @@ Here is the list of features categorized by the source from which they were extr
 
 Each of these features is stored as a numpy file in **data/features/**. The 1st column corresponds to the **source_url_processed** to ensure alignment with the corpus, and the last two columns correspond to the factuality and bias labels.
 
-## 2.3 Classification
+## 3 Classification
 To run the classification script, use a command-line argument of the following format:
 
 ```
@@ -41,7 +41,7 @@ where
 * [1] refers to the list of features (from the list above) that will be used to train the model. features must separated by "+" signs (example: has_wiki+has_twitter+title)
 
 
-## 2.4 Citation
+## 4 Citation
 For more details about the dataset, the features and the results, please refer to EMNLP paper:
 
 ```
