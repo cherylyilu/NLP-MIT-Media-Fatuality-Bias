@@ -56,3 +56,16 @@ For more details about the dataset, the features and the results, please refer t
   NOpublisher = {Association for Computational Linguistics}
 }
 ```
+
+## 3 Results
+After comparison, using: Logistic regression + Lasso regularization can reach similar F1 score and prediction by just analyzing:
+* Wikipedia related variables
+* Twitter account verification
+* Article title
+
+## 4 Business Use
+It is more cost efficient and faster computation model to predict article’s bias and factuality. 
+So this can solve Real-time source prediction function with ability to extend to all news websites. 
+Potential application develop for small startup to how to build their websites more believable.
+
+
