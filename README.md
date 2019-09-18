@@ -66,6 +66,6 @@ After comparison, using: Logistic regression + Lasso regularization can reach si
 ## 4 Business Use
 It is more cost efficient and faster computation model to predict article’s bias and factuality. 
 So this can solve Real-time source prediction function with ability to extend to all news websites. 
-Potential application develop for small startup to how to build their websites more believable.
+Potential application develop for small startup whose information sources are limited and more cost-sensative, to build their websites more believable and decrease bias.
 
 
